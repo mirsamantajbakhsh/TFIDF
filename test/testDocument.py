@@ -9,7 +9,7 @@ from DocumentPackage.DocumentClass import DocumentClass
 class TestDocument(unittest.TestCase):
 
     def testDocument(self):
-        self.doc1 = ['Harry', 'Potter', 'series', 'was', 'written', 'by', 'famous', 'writer', 'JKRowling']
+        self.doc1 = ['Harry', 'Potter', 'series', 'was', 'written', 'by', 'famous', 'author', 'JKRowling']
         self.doc2 = ['JRRTalkin', 'wrote', 'famous', 'The', 'Lord', 'Of', 'The', 'Rings', 'series', 'with', 'extra', 'of']
         self.doc3 = ['I', 'love', 'Harry', 'and', 'Ron', 'and', 'Hermione']
         self.doc4 = ['wizards', 'Hobbits', 'are', 'not', 'wizards', 'but', 'are', 'stranger', 'than', 'wizards']
